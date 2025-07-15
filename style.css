@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.lato-regular {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.btn{
+    width: 177px;
+    height: 64px;
+    border: none;
+    border-radius: 8px;
+    background-color: #E55473;
+}
+.intro{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+    background-color: rgba(229, 84, 115, 0.3);
+}
