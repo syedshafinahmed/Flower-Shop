@@ -299,6 +299,30 @@
     position: relative;
 }
 
+.footer {
+    height: 450px;
+    background-color: #111010;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.h {
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.m {
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.9);
+    margin: 24px 0px 32px 0px;
+}
+
+.l {
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.4);
+}
 
 @media screen and (max-width:992px) {
     .let {
@@ -437,7 +461,7 @@
     .posterimage {
         width: 250px;
         height: 78px;
-        
+
     }
 
     .overlay {
@@ -494,5 +518,22 @@
         justify-content: center;
         align-items: center;
         position: relative;
+    }
+
+    .h {
+        font-size: 30px;
+    }
+
+    .m {
+        font-size: 10px;
+        margin: 12px 0px 6px 0px;
+    }
+
+    .l {
+        font-size: 8px;
+    }
+    .footer{
+        height: 200px;
+        margin-top: 20px;
     }
 }
