@@ -237,6 +237,69 @@
     margin-bottom: 130px;
 }
 
+.overlay {
+    position: absolute;
+    margin: 0 auto;
+}
+
+.posterimage {
+    width: 1440px;
+    height: 449px;
+}
+
+.poster {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 200px 0px 150px 0px;
+}
+
+.get {
+    font-size: 40px;
+    font-weight: 800;
+    color: #272727;
+}
+
+.coupon {
+    font-size: 18px;
+    color: rgba(39, 39, 39, 0.6);
+    margin-top: 20px;
+}
+
+.box {
+    width: 850px;
+    height: 64px;
+    display: flex;
+    margin-top: 50px;
+}
+
+.subs {
+    width: 150px;
+    height: 64px;
+    background-color: #E55473;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 0px 8px 8px 0px;
+}
+
+.posterf input {
+    width: 700px;
+    height: 64px;
+    border: none;
+    margin-bottom: 30px;
+}
+
+.posterf {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+
 @media screen and (max-width:992px) {
     .let {
         font-size: 20px;
@@ -363,10 +426,73 @@
         width: 228px;
         height: 264px;
     }
-    .fourflower{
+
+    .fourflower {
         flex-direction: column;
         justify-content: center;
         align-items: center;
         gap: 15px;
+    }
+
+    .posterimage {
+        width: 250px;
+        height: 78px;
+        
+    }
+
+    .overlay {
+        position: absolute;
+        margin: 0 auto;
+    }
+
+    .poster {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 20px 0px 15px 0px;
+    }
+
+    .get {
+        font-size: 10px;
+        font-weight: 800;
+        color: #272727;
+    }
+
+    .coupon {
+        font-size: 8px;
+        color: rgba(39, 39, 39, 0.6);
+        margin-top: 1px;
+    }
+
+    .box {
+        width: 100px;
+        height: 42px;
+        display: flex;
+    }
+
+    .subs {
+        width: 50px;
+        height: 30px;
+        background-color: #E55473;
+        color: white;
+        font-size: 10px;
+        font-weight: normal;
+        border: none;
+        border-radius: 0px 8px 8px 0px;
+    }
+
+    .posterf input {
+        width: 100px;
+        height: 30px;
+        border: none;
+        font-size: 10px;
+    }
+
+    .posterf {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
     }
 }
