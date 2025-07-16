@@ -125,7 +125,32 @@
     flex-direction: column;
     align-items: center;
 }
-
+.person, .buq, .support{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.grey{
+    display: flex;
+    width: 1440px;
+    height: 320px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    background-color: rgba(39, 39, 39, 0.5);
+    gap: 100px;
+    border-radius: 8px;
+}
+.greyimg{
+    width: 88px;
+    height: 88px;
+}
+.greytext{
+    font-size: 24px;
+    font-weight: 600;
+    color: rgba(39, 39, 39, 0.8);
+}
 @media screen and (max-width:576px) {
     .let {
         font-size: 20px;
@@ -184,5 +209,10 @@
     }
     .fact{
         font-size: 10px;
+    }
+    .grey{
+        flex-direction: column;
+        height: 613px;
+        width: auto;
     }
 }
