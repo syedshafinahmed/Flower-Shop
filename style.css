@@ -114,7 +114,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 70px;
+    margin: 70px 0px 130px 0px;
     gap: 40px;
 }
 
@@ -152,5 +152,37 @@
     .intro {
         align-items: flex-end;
         padding-left: 15px;
+    }
+    .threeflowers{
+        flex-direction: column;
+        margin-bottom: 30px;
+    }
+    .divimg1, .divimg2, .divimg3{
+        width: 320px;
+        height: 358px;
+    } 
+    .flowerimg1{
+        width: 206px;
+        height: 285px;
+    }
+    .flowerimg2{
+        width: 246px;
+        height: 246px;
+    }
+    .flowerimg3{
+        width: 209px;
+        height: 314px;
+    }
+    .divimg3{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+    .feature{
+        font-size: 20px;
+        margin-top: 40px;
+    }
+    .fact{
+        font-size: 10px;
     }
 }
