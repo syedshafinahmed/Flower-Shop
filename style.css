@@ -37,9 +37,93 @@
     font-size: 18px;
     margin: 32px 0px 32px 0px;
 }
-.img{
-    width: 635px; 
+
+.img {
+    width: 635px;
     height: 800px;
+}
+
+.feature {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bolder;
+    color: #272727;
+    margin: 178px 0px 24px 0px;
+}
+
+.fact {
+    text-align: center;
+    font-size: 18px;
+    font-weight: normal;
+    color: rgba(39, 39, 39, 0.6);
+}
+
+.divimg1 {
+    width: 464px;
+    height: 538px;
+    border-radius: 300px 300px 0px 0px;
+    background-color: rgba(167, 33, 98, 0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.divimg2 {
+    width: 464px;
+    height: 538px;
+    border-radius: 300px 300px 0px 0px;
+    background-color: rgba(5, 151, 160, 0.2);
+}
+
+.divimg3 {
+    width: 464px;
+    height: 538px;
+    border-radius: 300px 300px 0px 0px;
+    background-color: rgba(71, 125, 17, 0.2);
+}
+
+.flowerimg1 {
+    width: 310px;
+    height: 428px;
+    padding: 78px 78px 0px 78px;
+    border-radius: 300px 300px 0px 0px;
+}
+
+.flowerimg2 {
+    width: 370px;
+    height: 370px;
+    padding: 85px 47px 51px 47px;
+    border-radius: 300px 300px 0px 0px;
+}
+
+.flowerimg3 {
+    width: 314px;
+    height: 471px;
+    padding: 67px 75px 0px 75px;
+    border-radius: 300px 300px 0px 0px;
+}
+
+.pinkflowertree {
+    text-decoration: underline;
+    font-size: 24px;
+    font-weight: bold;
+
+}
+
+.threeflowers {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+    gap: 40px;
+}
+
+.f1,
+.f2,
+.f3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 @media screen and (max-width:576px) {
@@ -59,11 +143,13 @@
         font-weight: 400;
         margin-bottom: 20px;
     }
-    .img{
-        width: 318px; 
+
+    .img {
+        width: 318px;
         height: 400px;
     }
-    .intro{
+
+    .intro {
         align-items: flex-end;
         padding-left: 15px;
     }
